@@ -42,7 +42,7 @@ public class SaleGame {
 	}
 
 
-	public void moveSalesmen() {
+	private void moveSalesmen() {
 		converted = new ArrayList<Salesman>();
 		for (Salesman salesman : salesmen) {
 			move(salesman);
@@ -89,14 +89,5 @@ public class SaleGame {
 		salesman.setY(y);
 
 	}
-
-	private boolean ValidateX(int x) {
-		return x >= 0 && x < MAP_WIDTH;
-	}
-
-	private boolean ValidateY(int y) {
-		return y >= 0 && y < MAP_HEIGHT;
-	}
-
 
 }

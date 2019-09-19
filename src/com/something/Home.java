@@ -15,5 +15,5 @@ public class Home {
 
 	public void convertPerson() {
 		personHome = false;
-	};
+	}
 }
